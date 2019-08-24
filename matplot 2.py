@@ -7,6 +7,7 @@ Created on Fri Aug 16 01:01:29 2019
  import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+fifa =pd.read_csv('fifa_data.csv')
 # Histogram
 Bins = [40,50,60,70,80,90,100]
 # resize our Graph
